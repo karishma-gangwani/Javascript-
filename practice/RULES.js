@@ -50,3 +50,6 @@
 // 20. prompt function always returns a string.
 
 // 21. console.table - to display the object table
+
+// 22. Debugging - you can type debugger; in ypur program to open the debugger in the console.
+// debugging is used to check the working and errors in your code.
