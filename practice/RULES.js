@@ -47,4 +47,6 @@
 
 // 19. use Math properties.
 
-// 20.
+// 20. prompt function always returns a string.
+
+// 21. console.table - to display the object table
