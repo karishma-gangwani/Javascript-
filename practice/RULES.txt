@@ -88,9 +88,40 @@ So if there is no parameter as numGuests then the OR operator will assign 10 to 
 
 34. Restructuring arrays and objects. 
 
+35. Function methods within an object can be written without using its keyword. That is inside an object. 
+
+36. Optional chaining. Use a question mark before a property is called. 
+
+console.log(restaurant.openingHours.mon?.open) --> if mon exists in openingHours then open the property and log it to the console. 
+
+37. Looping over keys and values. 
+Use .entries() method to iterate over index, element in arrays. 
+
+const a = ["a", "b", "c"];
+
+for (const [index, element] of a.entries()) {
+  console.log(index, element);
+}
+
+// 0 'a'
+// 1 'b'
+// 2 'c'
 
 
+38. Sets are used for unique values. You can create an array using sets and the spread operator and convert duplicates into unique values.
 
+Const arr = [1,2,3,1,2,1];
+Const newarr = [...newset(arr)];
+
+//output: [1,2,3]
+
+39. Convert object to Map:
+
+Const mapName = new Map(object.entries(object));
+
+40. Convert mãp to array:
+
+Const arr = [...mapname];
 
 
 
