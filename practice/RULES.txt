@@ -123,7 +123,35 @@ Const mapName = new Map(object.entries(object));
 
 Const arr = [...mapname];
 
+41. .indexOf method can be used to get the index of a number, string, entire word. 
+.slice method(initial, final value) - initial value is included but not end value.
+.lastIndexOf method
 
+42. Extract using slice. 
+
+Object.slice(-1)
+Object.lastIndexOf.slice(-1)
+
+43. All string returns a primitive. So when a method is called on a string, JS converts a string into a method object temporarily and then convert it back into a string. This process is called boxing. 
+
+44. .replace method on strings:
+
+String.replace(initial value, replaced value)
+
+45. Use regular expressions in functions for global effects. 
+
+Const announcement = 'All passengers come to boarding door 23. Boarding door 23!'
+Console.log(announcement.replace(/door/g, 'gate'));
+
+//output : All passengers come to boarding gate 23. Boarding gate 23!
+
+46. .startsWith();
+
+47. .join() - also works on arrays containing strings.
+
+48. .split(' ') converts the object/string into an array.
+
+49. .repeat() - will repeat the string or whatever argument you give. 
 
 
 
